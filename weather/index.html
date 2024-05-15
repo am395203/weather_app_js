@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather wip</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- body start -->
+        <div class="card">
+            <!-- search bar start -->
+            <div class="search">
+                <input id="search-bar" type="text" placeholder="Enter city name." spellcheck="false" name="city" required/>
+                <button class="search-btn">Search</button>
+            </div>
+            <!-- search bar end -->
+            <!-- weather section top start-->
+            <div class="weather">
+                <div class="weather-icon"><img src="icons\unknown.png" /></div>
+                <h2 class="city">-</h2>
+                
+                <div class="temp-info">
+                    <div class="col-temp">
+                        <h1 class="temperature">-</h1>
+                    </div>
+                    <div class="col-temp">
+                        <h3 class="max">max: </h3>
+                        <h3 class="min">min: </h3>
+                    </div>
+                </div>
+                <h4 class="feels-like">feels like: </h4>
+            </div>
+            <!-- weather section top end-->
+            <!-- weather section details start-->
+            <div class="details">
+                <div class="col">
+                    <div class="humidity-icon"><img src="icons\humidity.svg" /></div>
+                    <div>
+                        <p class="humidity">-</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wind-icon"><img src="icons\wind.svg" /></div>
+                    <div>
+                        <p class="wind-speed">-</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+            <!-- weather section details end-->
+
+        </div>
+        <!-- body end -->
+    </body>
+    <script src="scrpt.js"></script>
+</html>
