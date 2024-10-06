@@ -1,7 +1,7 @@
 'use strict';
 
-const apiKey = "64fad3299d97c6a6bb6db8597c2a032b";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=imperial&lang=en";
+const apiKey = "";
+const apiUrl = "";
 
 /*
 In this example, the getWeather function is declared as async, which means that it returns a promise. 
